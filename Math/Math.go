@@ -5,7 +5,7 @@ type Square struct {
 	BD int
 }
 
-func getArea(ac int, bc int) float32 {
+func GetArea(ac int, bc int) float32 {
 	return float32(ac * bc)
 }
 
