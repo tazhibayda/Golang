@@ -35,9 +35,9 @@ func (c *Company) CompanyEmployees() []Person {
 }
 
 func CheckExperience(p Person, c Company) string {
-
 	if p.Experience < c.Experience {
 		return fmt.Sprintf("You can be hired after %d year of work", c.Experience-p.Experience)
+	} else {
+		return "You can be hired to this company"
 	}
-	return "You can be hired to this company"
 }
